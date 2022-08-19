@@ -46,14 +46,14 @@ function hide() {
     contactIcon.classList.add("showIcon");
 }
 firstPlatform.addEventListener('click',()=>{
-    window.open("https://twitter.com/manvar_prit");
+    window.open("https://twitter.com/ansal_pandey");
 });
 secondPlatform.addEventListener('click',()=>{
     window.open("mailto:pandeyansal77@gmail.com");
 });
 thirdPlatform.addEventListener('click',()=>{
-    window.open("https://github.com/pritmanvar");
+    window.open("https://github.com/Ansalpandey110043");
 });
 fourthPlatform.addEventListener('click',()=>{
-    window.open("https://www.linkedin.com/in/prit-manvar-36ab97204/");
+    window.open("https://www.linkedin.com/in/ansal-p-63118a248/");
 });
