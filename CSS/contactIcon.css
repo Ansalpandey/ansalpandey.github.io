@@ -139,7 +139,6 @@
         transform: rotate(30deg);
         opacity: 1;
     }
-
 }
 /* Animation to hide the contacts */
 .hideFirst{
@@ -178,7 +177,6 @@
         opacity: 0;
     }
 }
-
 @media only screen and (max-width: 600px) {
     .contactButton{
         display: block;
