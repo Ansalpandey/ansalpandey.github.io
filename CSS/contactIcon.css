@@ -103,6 +103,7 @@
     z-index: 2;
 }
 
+
 /* Animation to show the contacts */
 .showFirst{
     animation: showFirst 0.75s linear 0.25s 1 forwards;
