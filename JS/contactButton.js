@@ -15,6 +15,7 @@ contact.addEventListener('click',()=>{
     console.log(contactIcon.classList);
     console.log(closeIcon.classList);
 });
+
 function show() {
     firstPlatform.classList.remove("hideFirst");
     secondPlatform.classList.remove("hide");
@@ -30,6 +31,7 @@ function show() {
     contactIcon.classList.add("hideIcon");
     closeIcon.classList.add("showIcon");
 }
+
 function hide() {
     firstPlatform.classList.remove("showFirst");
     secondPlatform.classList.remove("show");
@@ -45,15 +47,19 @@ function hide() {
     closeIcon.classList.add("hideIcon");
     contactIcon.classList.add("showIcon");
 }
+
 firstPlatform.addEventListener('click',()=>{
     window.open("https://twitter.com/ansal_pandey");
 });
+
 secondPlatform.addEventListener('click',()=>{
     window.open("mailto:pandeyansal77@gmail.com");
 });
+
 thirdPlatform.addEventListener('click',()=>{
     window.open("https://github.com/Ansalpandey110043");
 });
+
 fourthPlatform.addEventListener('click',()=>{
     window.open("https://www.linkedin.com/in/ansal-p-63118a248/");
 });

@@ -5,7 +5,6 @@ const navHeight = -nav.clientHeight; // to get height of navigation bar.
 
 window.addEventListener('scroll',function(e){
     let after = this.scrollY; // value of scroll after scrolling.
-
     // add box shadow if final scrolling is equal to 0
     if(after != 0){
         nav.style.boxShadow = "0px 5px 15px black";
@@ -21,6 +20,7 @@ window.addEventListener('scroll',function(e){
             }
             nav.style.top = pos + "px"; // update position by new pos.
         }
+        
     }else{ // to show nav bar
         if(pos < 0){ // if nav bar is not completely appear.
             pos += before - after;

@@ -12,6 +12,7 @@ document.querySelector('menu').addEventListener('click',()=>{
     }
     count++;
 });
+
 function showMenu() {
     disableScroll();
     first.classList.remove("revind1");
@@ -20,10 +21,10 @@ function showMenu() {
     first.classList.add("rotateDown");
     second.classList.add("remove");
     third.classList.add("rotateUp");
-
     menu.classList.remove("removePhoneMenu");
     menu.classList.add("showPhoneMenu");
 }
+
 function hideMenu() {
     first.classList.add("revind1");
     second.classList.add("revind2");
@@ -31,16 +32,15 @@ function hideMenu() {
     first.classList.remove("rotateDown");
     second.classList.remove("remove");
     third.classList.remove("rotateUp");
-
     menu.classList.remove("showPhoneMenu");
     menu.classList.add("removePhoneMenu");
-
     enableScroll();
 }
+
 function disableScroll() {
     document.body.classList.add("stop-scrolling");
 }
-  
+
 function enableScroll() {
     document.body.classList.remove("stop-scrolling");
 }

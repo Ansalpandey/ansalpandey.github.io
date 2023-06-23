@@ -52,8 +52,6 @@ window.onload = function(){
     const wait = txtElement.getAttribute('data-wait');
     // Init TypeWriter
     new TypeWriter(txtElement,words,wait);
-    
-    
     // TypeWriter fore Footer.
     const txtElementFooter = document.querySelector(".footer");
     const wordsFooter = JSON.parse(txtElementFooter.getAttribute('data-words'));
